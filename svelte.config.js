@@ -15,7 +15,7 @@ const config = {
 		adapter: adapter(),
 
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/heic-conv-gui' : ''
+			base: process.env.NODE_ENV === 'production' ? '/heic-conv' : ''
 		}
 	}
 };
