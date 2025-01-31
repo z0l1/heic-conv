@@ -102,7 +102,7 @@
 
 <h1 class="text-lg font-bold">SELECT FILES</h1>
 
-<input bind:files onchange={onFileChange} type="file" multiple />
+<input bind:files accept=".heic" onchange={onFileChange} type="file" multiple />
 
 {#if !files || files.length === 0}
 	<!-- <h1 class="text-lg font-bold">NO FILES SELECTED</h1> -->

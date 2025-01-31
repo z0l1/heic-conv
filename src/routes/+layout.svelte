@@ -3,6 +3,6 @@
 	let { children } = $props();
 </script>
 
-<div class="fontmono text-xs">version_0.0.1</div>
+<div class="fontmono text-xs">version_0.0.2</div>
 
 {@render children()}
