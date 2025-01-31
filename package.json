@@ -14,7 +14,7 @@
 		"lint": "prettier --check . && eslint .",
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
-		"deploy": "npm run build && npx gh-pages -d build -t true"
+		"deploy": "npm run build && npx gh-pages -d build"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
