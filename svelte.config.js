@@ -14,6 +14,8 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter(),
 
+		appDir: 'app',
+
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/heic-conv' : ''
 		}
