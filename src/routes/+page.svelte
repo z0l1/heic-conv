@@ -67,7 +67,7 @@
 					// conversionResult is a BLOB
 					// of the JPEG formatted image
 
-					const fileName = fileToConvert.name.replace('.heic', `.${convertType}`);
+					const fileName = fileToConvert.name.replace(/heic/gi, convertType);
 
 					convertedFiles.push(new File([conversionResult], fileName));
 				})
